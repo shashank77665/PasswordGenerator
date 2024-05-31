@@ -8,7 +8,7 @@ body{
     align-items: center;
     height: 100vh;
     display: flex;
-    background-color: #f0f0f0;
+    background-color: #4792ed;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -26,6 +26,13 @@ body{
     margin-bottom: 10px;
 }
 
+#length{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
 #password{
     padding: 10px;
     border: 1px solid #ccc;
@@ -35,6 +42,16 @@ body{
 
 
 #generate {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+}
+
+#reset {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;

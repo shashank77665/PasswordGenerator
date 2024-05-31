@@ -10,10 +10,21 @@
     <div class="container">
         <h1>Password Generator</h1>
         <div class="password-container">
-            <input type="text" id="password">
+            <input type="text" id="password" placeholder="Generated Password" readonly>
            
         </div>
-        <button id="generate" onclick="generatePassword()" >Generate Password</button>
+        <div class="container">
+            <input type="number" id="length" placeholder="Enter Passweord Length">
+           
+        </div>
+
+        <div class="container">
+            <button id="generate" onclick="generatePassword()" >Generate Password</button>
+            <button id="reset" onclick="reset()" >Reset</button>
+           
+        </div>
+
+        
     </div>
     <script src="script.js"></script>
 </body>

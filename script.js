@@ -1,5 +1,10 @@
 
 function generatePassword(){
-    let password=Math.floor(Math.random() * 1000000000);
-    document.getElementById('password').value=password;
+    let value=document.getElementById("length").value;
+    document.getElementById('password').value = Math.random().toString(36).substr(2, value);
+}
+
+function reset(){
+    document.getElementById('password').value ="";
+    document.getElementById('length').value ="";
 }

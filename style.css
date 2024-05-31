@@ -33,6 +33,16 @@ body{
     font-size: 16px;
 }
 
+#copy{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #99cbdc;
+    color: white;
+    font-size: 16px;
+}
+
 #password{
     padding: 10px;
     border: 1px solid #ccc;
